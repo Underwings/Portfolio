@@ -38,7 +38,7 @@ const GetService = () => {
                 position: "absolute",
                 width: "30%",
                 height: "80%",
-                margin: "-225.3px 0px 0px -70px",
+                margin: "-213.3px 0px 0px -70px",
               }}
               fluid
             />

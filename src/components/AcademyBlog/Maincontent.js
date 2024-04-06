@@ -48,7 +48,9 @@ const Maincontent = () => {
               </Row>
               <Row>
                   <Col className='pt-2'>
-                  <img src={require('../../Images/AcadamyBlog/service17.png')} style={{position:'relative',height:'100vh'}} fluid/>
+                    <div>
+                    <img src={require('../../Images/AcadamyBlog/service17.png')} style={{position:'relative',height:'100vh',width:'80rem'}} fluid/>
+                    </div>
                   </Col>
               </Row>
               <Row>
@@ -58,7 +60,7 @@ const Maincontent = () => {
               </Row>
               <Row>
                   <Col className='pt-3'>
-                  <img src={require('../../Images/AcadamyBlog/service18.png')} style={{position:'relative',height:'100vh'}} fluid/>
+                  <img src={require('../../Images/AcadamyBlog/service18.png')} style={{position:'relative',height:'100vh',width:'80rem'}} fluid/>
                   </Col>
               </Row>
               <Row>
@@ -75,6 +77,7 @@ const Maincontent = () => {
               </Row>
           </Container>
       </section>
+
     </section>
   )
 }
